@@ -1,8 +1,3 @@
-What issues will you address by cleaning the data?
+The first thing I did is remove the columns from my tables that contain nothing but null values
 
 
-
-
-
-Queries:
-Below, provide the SQL queries you used to clean your data.
