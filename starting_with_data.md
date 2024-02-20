@@ -30,8 +30,3 @@ Answer:
 
 
 
-Question 5: 
-
-SQL Queries:
-
-Answer:
