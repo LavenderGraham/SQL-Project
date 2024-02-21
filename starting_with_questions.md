@@ -300,7 +300,7 @@ SELECT
     SUM(IsBagsCategory) * 100.0 / COUNT(*) AS percentage_Bags_category
 FROM BagsNonUSA;
 
-```
+
 -- Question 1  Which cities and countries have the highest level of transaction revenues on the site?:
 
 SELECT country, SUM(CAST("totalTransactionRevenue" AS NUMERIC)) as total_revenue
@@ -1144,17 +1144,12 @@ SELECT
 FROM 
     CaliforniaRevenue, TotalRevenue;
 
---According to The Jewish Community Federation And Endowment Fund: At 350,000 people, the Bay Area 
---Jewish population is the fourth largest 
---in the country. Jews are 4% of the total Bay Area population, higher 
---than the share of Jews in the U.S. population as a whole.
-
---Also according to The American Jewish Population Project, Jewish people comprise 13% of the
---population of New York City. Making it the largest population of Jewish people outside of Isreal
-
---Therefore it makes sense that a company that has a lot of sales in the San Francisco Bay Area
---and in New York would have a lot of sales in Isreal because there might be Jewish people in the
---SF Bay and in NYC who are telling their Jewish family and friends about the company in Isreal,
---or Jewish customers might move to Isreal and continue to buy from the company.
-
 ```
+
+According to The Jewish Community Federation And Endowment Fund: At 350,000 people, the Bay Area Jewish population is the fourth largest in the country. Jews are 4% of the total Bay Area population, higher 
+than the share of Jews in the U.S. population as a whole.
+
+Also according to The American Jewish Population Project, Jewish people comprise 13% of the population of New York City. Making it the largest population of Jewish people outside of Isreal
+
+Therefore it makes sense that a company that has a lot of sales in the San Francisco Bay Area and in New York would have a lot of sales in Isreal because there might be Jewish people in the SF Bay and in NYC who are telling their Jewish family and friends about the company in Isreal, or Jewish customers might move to Isreal and continue to buy from the company.This is just a possiblity I suggest looking into.
+
